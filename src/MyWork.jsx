@@ -148,6 +148,20 @@ const MyWork = () => {
               </a>
             </div>
 
+            <div className="col-md-6 col-sm-12 col-12 mb-3">
+              <img
+                src="images/game.png"
+                alt="Game-Rock-Paper-Scissors"
+                className="img-fluid"
+                style={{ width: "100%", height: "auto", maxHeight: "500px" , borderRadius:"15px" }}
+              />
+              <a href="https://game-rock-paper-scissors-six.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <button className="btn btn-outline-danger mt-3 fw-bold text-sm-center">
+                    Go There <i className="bi bi-box-arrow-in-up-right"></i>
+                  </button>
+              </a>
+            </div>
+
 
           </div>
         </div>
